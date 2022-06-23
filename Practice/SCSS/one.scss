@@ -1,6 +1,5 @@
 @import "partial";
 
-// Style
 html {
     box-sizing: border-box;
     direction: rtl;
@@ -18,21 +17,20 @@ html {
 }
 
 body {
-    // background-color: lighten($color: #000000, $amount: 50%);
     background-color: darken($color: #ffffff, $amount: 30%);
 }
 
-.navbar {
+.nav {
     @include container($spc-sm, $color-1);
 
-    .nav-list {
+    &-list {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         text-align: center;
     }
 
-    .nav-item {
+    &-item {
         list-style: none;
         $font-big: 40px !global;
 
@@ -46,7 +44,7 @@ body {
 
     }
 
-    .nav-link {
+    &-link {
         @include toggle();
         text-decoration: none;
         color: $color-9;
@@ -61,11 +59,11 @@ body {
 .banner {
     @include container($spc-xl, $color-3);
 
-    .banner-head {
+    &-head {
         @include heading($color-8, $font-size-xxl, $color-6);
     }
 
-    .banner-text {
+    &-text {
         @extend %text;
         width: $w-75;
         margin: 0 auto;
@@ -76,11 +74,11 @@ body {
 .loop {
     @include container($spc-xxl, $color-7);
 
-    .loop-head {
+    &-head {
         @include heading($color-2, $font-size-xl, $color-3);
     }
 
-    p {
+    &-content {
         text-align: center;
     }
 }
@@ -89,11 +87,11 @@ body {
     @include container($spc-md, $color-2);
 
 
-    .footer-head {
+    &-head {
         @include heading($color-7, $font-size-xl, $color-5);
     }
 
-    .footer-text {
+    &-text {
         @extend %text;
         color: $color-4;
     }

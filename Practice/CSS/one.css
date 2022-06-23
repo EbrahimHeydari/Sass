@@ -1,4 +1,4 @@
-.banner .banner-text, .footer .footer-text {
+.banner-text, .footer-text {
   color: #fff;
   text-align: center;
 }
@@ -22,19 +22,19 @@ body {
   background-color: #b3b3b3;
 }
 
-.navbar {
+.nav {
   padding: 0.25rem;
   background-color: #008000;
 }
 
-.navbar .nav-list {
+.nav-list {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
 }
 
-.navbar .nav-item {
+.nav-item {
   list-style: none;
   font-size: 40px;
   font-weight: 500;
@@ -42,7 +42,7 @@ body {
   margin: 0.25rem 2rem;
 }
 
-.navbar .nav-link {
+.nav-link {
   transition: 0.3s;
   -o-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -51,7 +51,7 @@ body {
   color: #fff;
 }
 
-.navbar .nav-link:hover, .navbar .nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   border-bottom: 1px solid #fff;
 }
 
@@ -60,7 +60,7 @@ body {
   background-color: #008b8b;
 }
 
-.banner .banner-head {
+.banner-head {
   transition: 0.3s;
   -o-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -71,11 +71,11 @@ body {
   padding: 2rem 0.25rem;
 }
 
-.banner .banner-head:focus, .banner .banner-head:hover {
+.banner-head:focus, .banner-head:hover {
   color: #ffa500;
 }
 
-.banner .banner-text {
+.banner-text {
   width: 75%;
   margin: 0 auto;
   font-size: 20px;
@@ -86,7 +86,7 @@ body {
   background-color: #ffd700;
 }
 
-.loop .loop-head {
+.loop-head {
   transition: 0.3s;
   -o-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -97,11 +97,11 @@ body {
   padding: 2rem 0.25rem;
 }
 
-.loop .loop-head:focus, .loop .loop-head:hover {
+.loop-head:focus, .loop-head:hover {
   color: #008b8b;
 }
 
-.loop p {
+.loop-content {
   text-align: center;
 }
 
@@ -110,7 +110,7 @@ body {
   background-color: #004c94;
 }
 
-.footer .footer-head {
+.footer-head {
   transition: 0.3s;
   -o-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -121,11 +121,11 @@ body {
   padding: 2rem 0.25rem;
 }
 
-.footer .footer-head:focus, .footer .footer-head:hover {
+.footer-head:focus, .footer-head:hover {
   color: #dc143c;
 }
 
-.footer .footer-text {
+.footer-text {
   color: #00ffff;
 }
 /*# sourceMappingURL=one.css.map */
